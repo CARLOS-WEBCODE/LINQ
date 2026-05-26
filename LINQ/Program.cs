@@ -16,3 +16,6 @@ IEnumerable<int> listaNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 //SkipWhile e TakeWhile
 //listaNumeros.SkipWhile(x => x < 5).Dump("Números maiores ou iguais a 5");
 //listaNumeros.TakeWhile(x => x < 5).Dump("Números menores que 5");
+
+//Chunk
+//listaNumeros.Chunk(2).Dump("Números em grupos de 2");
